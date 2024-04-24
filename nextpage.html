@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to BOOTSPACE</title>
+    <link rel="icon" href="RMlogo_BnW.png" type="image/png">
+    <link rel="stylesheet" href="nextpg.css">
+</head>
+<body>
+    <div id ="title">
+        <h4>Bootspace</h4>
+    </div>
+    <img src="RMlogo_BnW.png" alt="RM.CO" srcset="">
+    <div id="message">
+        <h1>Hello <span id='user'></span>,</h1>
+        <h2>Your preferred vehicle is <span id='type'></span>, enjoy your ride!</h2>
+    </div>
+
+    <script>
+        const user = localStorage.getItem('user');
+        const type = localStorage.getItem('type');
+
+        document.getElementById('user').textContent = user;
+        document.getElementById('type').textContent = type;
+
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootspace</title>
+    <link rel="stylesheet" href="body.css">
+    <link rel="icon" href="RMlogo_BnW.png" type="image/png">
+</head>
+<body>
+    <div id ="title">   <!-- title -->
+     <h4>Bootspace</h4>
+    </div>
+    <br><br>
+    <div id="openingbox">
+        <h1>Welcome to Bootspace</h1>    <!-- openimg box -->
+    </div>
+    <br>
+    <div class="images">
+      <img src="RMlogo_BnW.png" alt="icon for Bootspace">   <!-- image -->
+    </div>
+    <br>
+    <hr>
+    <form class="form">             <!-- form -->
+       <div class="firstinput">    <!-- first input -->
+          <label for="Name">ENTER NAME :</label>
+          <input type="text" id="Name" required placeholder="Name" autocomplete="off">
+          <br><br>
+          <label for="noofpas">ENTER NUMBER OF PASSENGERS :</label>
+          <input type="text"  id="noofpas" required placeholder="passengers" autocomplete="off">  <!-- autocmplte off to make sure auto pop up doesnt come -->
+        </div> 
+        <h2 id ="choose1"> Choose your luggage type and quantity </h2>
+
+        <div class="choose">     <!-- choose -->
+    
+              <h1>Large</h1>          <!-- radio and label button -->
+              <label for="1L">1</label>
+              <input type="radio" id="1L" name="selection1" value="1" >
+              <label for="2L">2</label>
+              <input type="radio" id="2L" name="selection1" value="2" >
+              <label for="3L">3</label>
+              <input type="radio" id="3L" name="selection1" value="3" >
+              <label for="4L">4</label>
+              <input type="radio" id="4L" name="selection1" value="4" >
+              <label for="5L">5</label>
+              <input type="radio" id="5L" name="selection1" value="5" >
+              <h1>Medium</h1>
+              <label for="1M">1</label>
+              <input type="radio" id="1M" name="selection2" value="1" >
+              <label for="2M">2</label>
+              <input type="radio" id="2M" name="selection2" value="2" >
+              <label for="3M">3</label>
+              <input type="radio" id="3M" name="selection2" value="3" >
+              <label for="4M">4</label>
+              <input type="radio" id="4M" name="selection2" value="4" >
+              <label for="5M">5</label>
+              <input type="radio" id="5M" name="selection2" value="5" >
+              <h1>Small</h1>
+              <label for="1S">1</label>
+              <input type="radio" id="1S" name="selection3" value="1" >
+              <label for="2S">2</label>
+              <input type="radio" id="2S" name="selection3" value="2" >
+              <label for="3S">3</label>
+              <input type="radio" id="3S" name="selection3" value="3" >
+              <label for="4S">4</label>
+              <input type="radio" id="4S" name="selection3" value="4" >
+              <label for="5S">5</label>
+              <input type="radio" id="5S" name="selection3" value="5" >
+
+        </div>
+        <div class="sizechart">
+            <img src="checked-luggage-sizes.jpg" alt="Size chart" srcset="">
+        </div>
+        <br>     
+        <hr>
+        
+        <div class="closing">   <!-- closing : button -->
+            <button type="submit" id="submitbtn">SUBMIT</button>
+            <p>Bootspace is a AI that lets you be stress free of your own Bootspace</p>
+            <br>
+            <p>copyright@rahul2002</p>
+        </div>
+
+    </form>
+    <script src="scripts.js"></script>
+</body>
+</html>

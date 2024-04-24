@@ -1,0 +1,88 @@
+#title{
+    position: fixed;
+    text-align: left;    /* item alighned in left  */
+    font: 20px sans-serif;
+    background-color: black;
+    color: whitesmoke;
+    height: 65px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-left: 10px;
+}
+#openingbox{
+    text-align: center;
+    font: 30px sans-serif;
+}
+#openingbox h1{
+    margin-bottom: 0;
+}
+.images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.images img{
+    width: 200px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.firstinput{
+    height: auto;
+    width: auto;
+    background: linear-gradient(to bottom, #7c7c7c, #000000);
+    background-size: 100% 100%;
+    align-items: baseline;
+    color: whitesmoke ;
+    padding: 40px 20px;
+    margin: 30px;
+    border-radius: 25%;
+
+}
+#choose1 {
+    text-align: center;
+    font: bold;
+    font-style: italic;
+}
+hr{
+    border: black solid;
+    border-width: 3px;
+}
+.choose{
+    text-align: center;
+    font-style: serif;
+    margin-bottom: 10px;
+}
+.choose h1{
+    margin: 10px 5px;
+}
+.closing {
+    text-align: center;
+    color: black;
+}
+.closing button{
+    background-color: black;
+    color: whitesmoke;
+}
+.choose label{
+    font-size: x-large;
+
+}
+body{
+    background: linear-gradient(to bottom, #ffffff, #000000);  /* transient color gradient */
+    background: linear-gradient(to right, #ffffff, #9b9b9b);
+    background-size: 100% 100%;
+    transition: background 1s ease;  /* transition effect */
+}
+form .sizechart img
+ {
+        width: 350px; /* Adjust the width as needed */
+        display: block; /* Ensures the image is treated as a block element */
+        margin: 10px auto;
+        margin-top: 40px; /* Centers the image horizontally */
+        margin-bottom: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adds a subtle box shadow */
+    }
+    
